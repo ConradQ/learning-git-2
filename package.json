@@ -1,25 +1,27 @@
 {
-  "name": "learning-git2",
+  "name": "learning-git-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ConradQ/learning-git2.git"
+    "url": "git+https://github.com/ConradQ/learning-git-2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ConradQ/learning-git2/issues"
+    "url": "https://github.com/ConradQ/learning-git-2/issues"
   },
-  "homepage": "https://github.com/ConradQ/learning-git2#readme",
+  "homepage": "https://github.com/ConradQ/learning-git-2#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.3",
+    "globstar": "^1.0.0",
     "nu-html-checker": "^0.1.0"
   }
 }
